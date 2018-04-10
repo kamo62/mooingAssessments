@@ -1,10 +1,10 @@
-package com.kamo;
+package com.kamo.assignments;
 
-import java.lang.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Scanner;
+
+import com.kamo.util.EasyIn;
 
 public class Ass2
 {
@@ -42,8 +42,6 @@ public class Ass2
 	static int getMaxTip(Order orders[], int x, int y)
 	{
 		Arrays.sort(orders);
-		// System.out.println(Arrays.toString(orders));
-		
 		int tip = 0;
 		
 		for (Order o : orders)
@@ -111,12 +109,11 @@ public class Ass2
 				System.out.println(item);
 			}
 		try
-		{
-			EasyIn.br.close();
-		}
-		catch(Exception e)
-		{
-			return;
-		}
+			{
+				EasyIn.br.close();
+			} catch (Exception e)
+			{
+				return;
+			}
 	}
 }

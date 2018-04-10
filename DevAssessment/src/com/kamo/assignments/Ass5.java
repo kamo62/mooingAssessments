@@ -1,9 +1,9 @@
-package com.kamo;
+package com.kamo.assignments;
 
 import java.text.NumberFormat;
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+
+import com.kamo.util.EasyIn;
 
 public class Ass5
 {

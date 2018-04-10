@@ -1,14 +1,11 @@
-package com.kamo;
+package com.kamo.assignments;
 
-import java.lang.*;
-import java.io.*;
-import java.util.Scanner;
+import com.kamo.util.EasyIn;
 
 public class Ass1
 {
 	static boolean check(String str)
 	{
-		int numValue = 0;
 		if (str.length() == 0)
 			return false;
 		try

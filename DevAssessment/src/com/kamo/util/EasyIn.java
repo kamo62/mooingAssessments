@@ -1,5 +1,4 @@
-package com.kamo;
-//Code used by Kamogelo Mashishi for the Star Sign project.
+package com.kamo.util;
 
 
 
